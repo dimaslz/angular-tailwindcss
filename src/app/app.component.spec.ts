@@ -30,6 +30,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-tailwind app is running!');
+    expect(compiled.querySelector('.App .App__title').textContent).toContain('Angular + TailwindCSS + Sass');
   });
 });
