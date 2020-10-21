@@ -1,5 +1,5 @@
 require('dotenv').config();
-const enablePurge = process.env.NODE_ENV === 'production' || false;
+const enablePurge = process.env.NODE_ENV === 'production';
 
 module.exports = {
   purge: {
